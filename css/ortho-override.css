@@ -1,0 +1,173 @@
+/* =============================================
+   바로서다 정형외과 - Color Override
+   Original: Brown/Earth tone → Medical Blue/Teal
+   ============================================= */
+
+/* === Base Colors === */
+body { color: #2c3e50; }
+.c_default, .c_black { color: #2c3e50 !important; }
+.c_lightgray { color: #b0bec5 !important; }
+.color1 { color: #0277bd !important; }
+.color2 { color: #80deea !important; }
+.color3 { color: #4fc3f7 !important; }
+.color4 { color: #0288d1 !important; }
+.color5 { color: #00695c !important; }
+
+/* === Header === */
+#header {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+}
+#header .inner { background: transparent; }
+
+#header #gnb ul li a.topnav {
+    color: #2c3e50 !important;
+}
+#header #gnb ul li a.topnav:hover {
+    color: #0277bd !important;
+}
+#header.jbFixed {
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+#header.jbFixed #gnb ul li a.topnav:hover {
+    color: #0277bd !important;
+}
+
+/* === Subnav Dropdown === */
+#gnb .subnav {
+    background: #f5f9fc;
+    border-top: 3px solid #0277bd;
+}
+#gnb .subnav .inner h2 {
+    color: #0277bd;
+}
+#gnb .subnav dd {
+    border-left-color: #0277bd;
+}
+#gnb .subnav dd:hover,
+#gnb .subnav dd a:hover {
+    background: #0277bd;
+    color: #fff !important;
+}
+#gnb .subnav dd a {
+    color: #37474f;
+}
+
+/* === Logo === */
+#header .logo a {
+    color: #0277bd !important;
+    font-weight: 700;
+}
+
+/* === Quick Sidebar === */
+#quick a {
+    background: #0277bd !important;
+    color: #fff !important;
+}
+#quick a:hover {
+    background: #01579b !important;
+}
+
+/* === Footer === */
+#footer {
+    background: #1a2332 !important;
+    color: #cfd8dc;
+}
+#footer .inner .logo {
+    color: #4fc3f7 !important;
+}
+#footer .txt span {
+    color: #90a4ae;
+}
+#footer .tel p {
+    color: #90a4ae;
+}
+#footer .tel h2 {
+    color: #4fc3f7 !important;
+}
+
+/* === Main Visual Section === */
+#visual .swiper-slide {
+    background-color: #e3f2fd;
+}
+
+/* === Section Backgrounds === */
+#section1 {
+    background-color: #f5f9fc;
+}
+#section2 .warrantybox > div {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 15px rgba(2, 119, 189, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+#section2 .warrantybox > div:hover {
+    box-shadow: 0 5px 25px rgba(2, 119, 189, 0.2);
+    transform: translateY(-5px);
+}
+
+#section4 {
+    background: #f5f9fc !important;
+}
+
+/* === Section 5 - Clinic Grid Hover === */
+#section5 .leftbox a:hover,
+#section5 .rightbox a:hover {
+    background-color: rgba(2, 119, 189, 0.85) !important;
+}
+
+/* === Section 6 - Board Output === */
+#section6 {
+    background: #f5f9fc !important;
+}
+
+/* === Section 7 - Location === */
+#section7 .locationbox .box h5.bold {
+    color: #0277bd;
+}
+
+/* === Button Styles === */
+a.btn, .btn {
+    background: #0277bd;
+    color: #fff;
+    border-color: #0277bd;
+}
+a.btn:hover, .btn:hover {
+    background: #01579b;
+    border-color: #01579b;
+}
+
+/* === Accent Links === */
+a:hover {
+    color: #0277bd;
+}
+
+/* === Specialist Box (Section 4) === */
+.specialistbox > div {
+    border-left: 3px solid #0277bd;
+}
+.specialistbox .bold.color5 {
+    color: #00695c !important;
+}
+
+/* === Board Output Links === */
+.board_output a {
+    color: #37474f;
+}
+.board_output a:hover {
+    color: #0277bd;
+}
+
+/* === Sub Page - Title Bar === */
+.sub_title, .sub_visual {
+    background-color: #0277bd !important;
+}
+
+/* === Sub Page - Location Nav === */
+.location span, .location a {
+    color: #607d8b;
+}
+
+/* === General overrides for brown → blue === */
+/* Replace all brown tones with blue tones */
